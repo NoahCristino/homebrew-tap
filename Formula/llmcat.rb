@@ -1,25 +1,25 @@
 class Llmcat < Formula
   desc "A simple CLI that transforms your code into clean, structured text for feeding into LLMs."
   homepage "https://github.com/NoahCristino/llmcat"
-  version "1.2.0"
+  version "1.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/NoahCristino/llmcat/releases/download/v1.2.0/llmcat-aarch64-apple-darwin.tar.xz"
-      sha256 "6d639f62d84fe6cdad05d3d02b50e1bfa712f04a44a0c1dfe20fdbe5312be8d2"
+      url "https://github.com/NoahCristino/llmcat/releases/download/v1.3.0/llmcat-aarch64-apple-darwin.tar.xz"
+      sha256 "d91cf3874678f658edbf0aa33116e1d10ac05f9592f14f28c9207d6d2dbab2b4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/NoahCristino/llmcat/releases/download/v1.2.0/llmcat-x86_64-apple-darwin.tar.xz"
-      sha256 "f030386d38bebcdde14d50ac578f1856649b933ddbcdf66313f4c36ffedea4b8"
+      url "https://github.com/NoahCristino/llmcat/releases/download/v1.3.0/llmcat-x86_64-apple-darwin.tar.xz"
+      sha256 "6f1588b6ce1ca764385b90d1c7139203dae01bd104e66ddf2b04fa721c1ede77"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/NoahCristino/llmcat/releases/download/v1.2.0/llmcat-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5dfafedf60e14dbc68ab7c38ab7bbff87c5176c306423aa4fb7d9f90281f4711"
+      url "https://github.com/NoahCristino/llmcat/releases/download/v1.3.0/llmcat-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ec22a9c98348f81620fafcf789607d5674bfb063a002c1be88c820e7c1f3b751"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/NoahCristino/llmcat/releases/download/v1.2.0/llmcat-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c402ba76951dcb383c42ef19728b8624f18b28a647855853770b8b5c9c0f2898"
+      url "https://github.com/NoahCristino/llmcat/releases/download/v1.3.0/llmcat-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "02fcef43f1ee97c47dcef3db2ddce740ad3eda69e67a0b70285499e2e118dba3"
     end
   end
   license "MIT"
